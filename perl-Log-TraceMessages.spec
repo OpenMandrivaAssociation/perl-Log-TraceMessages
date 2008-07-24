@@ -1,7 +1,7 @@
 %define	module	Log-TraceMessages
 %define	name	perl-%{module}
 %define	version	1.4
-%define	release %mkrel 4
+%define	release %mkrel 6
 
 Summary:	Log::TraceMessages Perl Module
 License:	GPL or Artistic
