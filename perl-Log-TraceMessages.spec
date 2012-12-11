@@ -50,3 +50,46 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/auto/Log/TraceMessages/autosplit.ix
 %{_mandir}/*/*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.4-8mdv2010.0
++ Revision: 430483
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.4-7mdv2009.0
++ Revision: 257671
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.4-6mdv2009.0
++ Revision: 245709
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.4-4mdv2008.1
++ Revision: 140691
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Sep 15 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.4-4mdv2008.0
++ Revision: 86524
+- rebuild
+
+
+* Sat Sep 02 2006 Stefan van der Eijk <stefan@mandriva.org> 1.4-3mdk
+- yearly rebuild
+- add %%check section
+
+* Thu Jun 02 2005 Stefan van der Eijk <stefan@eijk.nu> 1.4-2mdk
+- %%mkrel
+- yearly rebuild
+
+* Thu Jun 03 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.4-1mdk
+- 1.4
+- clean %%description
+- cosmetics
+
+* Sat Nov 29 2003 Stefan van der Eijk <stefan@eijk.nu> 1.3-1mdk
+- 1.3
+
