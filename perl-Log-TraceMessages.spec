@@ -9,7 +9,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Group:		Development/Perl
-Url:		http://www.cpan.org/
+Url:		https://www.cpan.org/
 Source0:	%{module}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
